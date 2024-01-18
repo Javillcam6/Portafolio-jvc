@@ -1,0 +1,61 @@
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.ContainerProfile {
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.ContainerInfo {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.StyleEdu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.h3Edu{
+    color: #87919C;
+    margin-bottom: -70px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+/* Vertical cel y tablets */
+@media (max-width: 768px) {
+    .ContainerProfile {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+/*Tabletas y computados */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .ContainerProfile {
+        width: 70%;
+    }
+}
+
+/* Para computadoras */
+@media (max-width: 1025px) {
+    .ContainerProfile {
+        width: 60%;
+    }
+}

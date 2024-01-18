@@ -1,0 +1,13 @@
+/* SocialMedia.module.css */
+
+
+.menu-social {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    color: #2FDF84; 
+    margin-right: 10px; 
+}

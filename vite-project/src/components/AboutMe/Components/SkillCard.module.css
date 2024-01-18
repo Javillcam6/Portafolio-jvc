@@ -1,0 +1,13 @@
+.SkillCard{
+    display: flex;
+    padding-top: 50px;
+    
+}
+
+
+@media (max-width: 1024px) {
+    .SkillCard {
+        width: 900px;
+        padding: 10px;
+    }
+}

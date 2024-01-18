@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/* body {
+    background: linear-gradient(100deg, #170b3b, #12084a, #240338);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+body {
+    background: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

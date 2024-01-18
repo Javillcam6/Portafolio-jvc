@@ -1,0 +1,10 @@
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 55px;
+}
+.descriptionContainer .description{
+    font-weight: 600;
+    color: #2d4156d0;
+}

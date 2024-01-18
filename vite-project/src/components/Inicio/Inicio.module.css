@@ -1,0 +1,133 @@
+/* Variables CSS */
+:root {
+    --primary-gradient: linear-gradient(180deg, #1a5300, #9CFF1E, #0a6500);
+    --secondary-gradient: linear-gradient(180deg, #384f1a, #0a6500, #384f1a);
+    --text-color: #63707E;
+    --link-color: #9CFF1E;
+    --tex-color2: #63707E;
+}
+
+.InicioA{
+    width: 80%;
+    height: 88vh;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    padding-top: 2%;
+    gap: 40px;
+}
+
+/* .Inicio {
+    width: 90%;
+    height: 92vh;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    padding-top: 2%;
+} */
+
+.InicioA {
+    grid-template-rows: 10% 40%;
+    grid-template-columns: 50% 50%;
+
+}
+
+/* .Inicio {
+    grid-template-columns: 60% 40%;
+    padding-top: 4%;
+} */
+
+.tittleH1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/ span 2;
+    justify-content: center;
+    text-align: center;
+}
+
+.description {
+    width: 85%;
+    /* max-width: 600px; */
+    height: 209px;
+    display: grid;
+    grid-row:2/2;
+    grid-column: 1/2;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.description p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.description div {
+    display: flex;
+    gap: 5px;
+}
+
+.gradientTittle {
+    color: var(--tex-color2);
+
+}
+
+.button {
+    max-width: 420px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: start;
+    align-items: start;
+    padding-top: 20px;
+}
+
+
+.button div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.button a {
+    color: var(--link-color);
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--link-color);
+    border-image-width: 2px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.button a:hover {
+    background: var(--secondary-gradient);
+    color: #ffffff;
+    font-weight: 600;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.imgDevApps {
+    display: grid;
+    grid-row:2/2;
+    grid-column: 2/2;
+    padding-left: 40px;
+    padding-top: 130px;
+}
+
+.DevApps {
+    width: 600px;
+    height: 350px;
+    background: url('vite-project/src/assets/img/DevApps.png') center/cover;
+}
